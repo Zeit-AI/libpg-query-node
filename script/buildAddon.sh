@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # Set the desired commit hash and branch
-commit=e7c14fe399c4903223362790c212bcbeb6832864
+commit=b2c66cba22373a0911114a5d3246e0e4f00c6b6c
 branch=13-latest
 
 # Remember current directory and create a new, unique, temporary directory
@@ -15,7 +15,7 @@ makeTarget=build
 cd "$tmpDir"
 
 # Clone the selected branch of the libpg_query Git repo
-git clone -b $branch --single-branch https://github.com/pganalyze/libpg_query.git
+git clone -b $branch --single-branch https://github.com/ad-si/libpg_query.git
 cd libpg_query
 
 # Checkout the desired commit
