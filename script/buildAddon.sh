@@ -15,7 +15,7 @@ makeTarget=build
 cd "$tmpDir"
 
 # Clone the selected branch of the libpg_query Git repo
-git clone -b $branch --single-branch https://github.com/ad-si/libpg_query.git
+git clone -b $branch --single-branch https://github.com/Zeit-AI/libpg_query.git
 cd libpg_query
 
 # Checkout the desired commit
